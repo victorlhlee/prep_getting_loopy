@@ -99,9 +99,9 @@ It's that time again, we need to graduate the current class of students and star
 
 Declare a variable named `currentClass` and set it's value to be this [array found here](https://gist.github.com/sgnl/e40879b2249e06ca7811).
 
-Declare a function named `graduateAndSetNewClass`, it takes a single argument called `class`.
+Declare a function named `graduateAndSetNewClass`, it takes a single argument called `cohort`.
 
-Your function will iterate through the `class` argument and check each student's `enrolled` property.
+Your function will iterate through the `cohort` argument and check each student's `enrolled` property.
 
 If the `enrolled` property is set to `true` then change that student's `graduated` property to `true`. Otherwise, if `enrolled` is set to `false` then change `enrolled` to `true` leaving `graduated` alone and unchanged.
 */
