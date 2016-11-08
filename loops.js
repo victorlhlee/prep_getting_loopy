@@ -10,8 +10,12 @@ Within the _FOR_ loop, use `console.log` to:
 
 /***bonus:** could you take the code inside of this FOR loop and encapsulate it inside of a function called `printContent` and still achieve the same result? This new function should accept two parameters.*/
 
+var presidents = ['Washington', 'Adams', 'Jefferson', 'Madison', 'Monroe'];
 
-
+for (var i=0; i<presidents.length; i++) {
+  console.log(`Value of i is: `+i);
+  console.log(`Value at Index is: `+presidents[i]);
+}
 
 
 /*Declare a variable named `stringOfNumbers` and set it's value to `''` (an empty String).*/
