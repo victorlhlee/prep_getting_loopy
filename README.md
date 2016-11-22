@@ -58,7 +58,7 @@ Note that every odd index value in `oopsArray` is currently `undefined`. Using a
 
 Example result should look like:
 ```javascript
-`[ 'turn' , 'nope' , 'down' , 'nope' , 'for' , 'nope' , 'what' ]`
+[ 'turn' , 'nope' , 'down' , 'nope' , 'for' , 'nope' , 'what' ]
 ```
 
 
@@ -76,37 +76,38 @@ nope
 turn
 ```
 
-## `isNapTime`
-Declare a variable named `isNapTime`. Set it to `false`
+##5) `isNapTime`
+Declare a variable named `isNapTime`. Set it to `false`.
 
-Declare a variable named `napSchedule`. Set it's value to be an `Array` with the values `[false, false, true, false, true, true]`
+Declare a variable named `napSchedule`. Set its value to be an `Array` with the values `[false, false, true, false, true, true]`.
 
-Declare a function named `nap`. This function takes in a single parameter called `schedule`
+Declare a function named `nap`. This function takes in a single parameter called `schedule`.
 
 - If `schedule` is `true` then use `console.log` to display the message `ZzZzZzZz`
 - otherwise if `schedule` is `false` use `console.log` to display the message `Gotta get to work!` and then change the value of `isNapTime` to `true`
 
-Now, Write a FOR loop that iterates through the `napSchedule` array and runs the function `nap` while passing in the value at the current position of `napSchedule` into the `nap` function.
+Now, Write a **for-loop** that iterates through the `napSchedule` array and runs the function `nap` while passing in the value at the current position of `napSchedule` into the `nap` function.
 
 exmaple of output:
 
 ![example-2](https://s3.amazonaws.com/uploads.hipchat.com/54891/1222770/mpHiHwoQcuGYFkN/upload.png)
 
-## `CopyArray - clone array values`
-Declare a variable named `copyOfValuesArray` and set it's value to be an empty array, `[]`.
+##6) `CopyArray - clone array values`
+Declare a variable named `copyOfValuesArray` and set its value to be an empty array, `[]`.
 
-Declare a variable named `valuesArray` and set it's value to be an array, `[99, 66, 829, 1941, 8, 76]`.
+Declare a variable named `valuesArray` and set its value to the following array: `[99, 66, 829, 1941, 8, 76]`.
 
-Declare a function named `copyArray` which takes two arguments: `originArray` and `destinationArray`. Inside of this function you will loop through the contents of `originArray` and push each value into `destinationArray`.
+Declare a function named `copyArray` that takes two arguments: `originArray` and `destinationArray`. This function should iterate through the contents of `originArray` and push each value into `destinationArray`.
 
-To get started, below your function declaration, call your function and pass in the two variables, `valuesArray` and `copyOfValuesArray`. After that, use `console.log` to to inspect the values of `valuesArray` and `copyOfValuesArray` to make sure they have the same values (which means your function worked!).
+To get started, first declare your function. Call your function and pass in the two variables, `valuesArray` and `copyOfValuesArray`. After that, use `console.log` to to inspect the values of `valuesArray` and `copyOfValuesArray` to make sure they have the same values (which means your function worked!).
+
 
 # Final Boss
 
 ![final-boss](https://s3.amazonaws.com/uploads.hipchat.com/54891/2015941/zamX8AqbgYw0QJ8/giphy.gif)
 
 ## Stage 1 - Only String Values
-Declare a variable named `miscStorage` set it's value to be: `[ [], 'Carrots', 9, 'Beets', {}, {name: "Todd B."}, 'Mush' ]`
+Declare a variable named `miscStorage` set its value to be: `[ [], 'Carrots', 9, 'Beets', {}, {name: "Todd B."}, 'Mush' ]`
 
 Declare a function named `generateArrayOfStrings` which takes a single argument `storage`. This function returns a new Array with only `String` values inside of it.
 

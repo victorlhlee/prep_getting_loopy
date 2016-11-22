@@ -1,4 +1,4 @@
-/*## 1) `Presidents - Accessing values in an Array`
+/* 1) `Presidents - Accessing values in an Array`
 Declare a variable named `presidents` and set its value to an Array containing the first 5 presidents' last names: `Washington`, `Adams`, `Jefferson`, `Madison`, `Monroe`.
 
 Now write a **for-loop** which iterates through this Array.
@@ -20,13 +20,13 @@ Write a **for-loop** that concatenates a Number value to that string on each ite
 /***bonus:** could you take the code inside of this for-loop and encapsulate it inside of a function called `appendToString` and still achieve the same result?*/
 
 
-/*## 3) `Add only even numbrs to an array`
+/* 3) `Add only even numbrs to an array`
 Declare a variable named `evenNumberArray` and set its value to an empty array.
 
 Use a for-loop to add only even numbers to an Array. Add `50` even numbers to the `evenNumberArray` starting with the value `0`.*/
   
 
-/*## `Accessing only the odd indexes of an Array - 'Not Even Brah'`
+/* 4) `Accessing only the odd indexes of an Array - 'Not Even Brah'`
 Someone forgot to fill out this array! Oh noes...
 
 Declare a new variable named `oopsArray` set it's value to be: `[ 'turn' , , 'down' , , 'for' , , 'what' ]`.
@@ -38,7 +38,7 @@ Example result should look like:
 `[ 'turn' , 'nope' , 'down' , 'nope' , 'for' , 'nope' , 'what' ]`*/
 
 
-/*## 4) `Going backwards?!`
+/* 4) `Going backwards?!`
 Using a for-loop, iterate through the Array stored at `oopsArray` **backwards**. `console.log` each value in the Array.
 
 example output:
@@ -52,13 +52,9 @@ nope
 turn
 ```*/
 
-for (var i = oopsArray.length-1; i >= 0; i--) {
-  // console.log(oopsArray[i]);
-}
 
-
-/*## `isNapTime`
-Declare a variable named `isNapTime`. Set it to `false`
+/* 5) `isNapTime`
+Declare a variable named `isNapTime`. Set it to `false`.
 
 Declare a variable named `napSchedule`. Set it's value to be an `Array` with the values `[false, false, true, false, true, true]`
 
@@ -99,12 +95,12 @@ To get started, below your function declaration, call your function and pass in 
 
 /*![final-boss](https://s3.amazonaws.com/uploads.hipchat.com/54891/2015941/zamX8AqbgYw0QJ8/giphy.gif)
 
-## Stage 1 - Only String Values
+ Stage 1 - Only String Values
 Declare a variable named `miscStorage` set it's value to be: `[ [], 'Carrots', 9, 'Beets', {}, {name: "Todd B."}, 'Mush' ]`
 
 Declare a function named `generateArrayOfStrings` which takes a single argument `storage`. This function returns a new Array with only `String` values inside of it.
 
-## Final Form - Change values of objects stored within an Array
+ Final Form - Change values of objects stored within an Array
 It's that time again, we need to graduate the current class of students and start enrollment for the next class.
 
 Declare a variable named `currentClass` and set it's value to be this [array found here](https://gist.github.com/sgnl/e40879b2249e06ca7811).
