@@ -1,52 +1,46 @@
-/*## `Presidents - Accessing values in an Array`
-Declare a variable named `presidents` which contains the first 5 presidents' last names: `Washington`, `Adams`, `Jefferson`, `Madison`, `Monroe`.*/
+/* 1) `Presidents - Accessing values in an Array`
+Declare a variable named `presidents` and set its value to an Array containing the first 5 presidents' last names: `Washington`, `Adams`, `Jefferson`, `Madison`, `Monroe`.
 
-/*Now write a _FOR_ loop which iterates through this Array.
+Now write a **for-loop** which iterates through this Array.
 
-Within the _FOR_ loop, use `console.log` to:
+Within the **for-loop**, use `console.log` to:
 
 - Log the value of `i`. Use a message like `Value of i is: ` and append the value of `i` to this String
 - Log what is at index `i` in the array. Use a message like `Value at Index is: ` and append the value stored within the Array at that index.*/
 
-/***bonus:** could you take the code inside of this FOR loop and encapsulate it inside of a function called `printContent` and still achieve the same result? This new function should accept two parameters.*/
+/***bonus:** could you take the code inside of this for-loop and encapsulate it inside of a function called `printContent` and still achieve the same result? This new function should accept two parameters.*/
 
 
 
+/* 2) Declare a variable named `stringOfNumbers` and set it's value to `''` (an empty String).
+
+Write a **for-loop** that concatenates a Number value to that string on each iteration, starting at `10` and continuing up to and including `20`. */
 
 
-/*Declare a variable named `stringOfNumbers` and set it's value to `''` (an empty String).*/
-
-/*Then write a _FOR_ loop that appends a Number value to that string starting from `10` all the way up to and including `20`.*/
+/***bonus:** could you take the code inside of this for-loop and encapsulate it inside of a function called `appendToString` and still achieve the same result?*/
 
 
+/* 3) `Add only even numbrs to an array`
+Declare a variable named `evenNumberArray` and set its value to an empty array.
 
-/***bonus:** could you take the code inside of this _FOR_ loop and encapsulate it inside of a function called `appendToString` and still achieve the same result?*/
-
-
-
-/*## `Add only even numbrs to an array`
-Declare a variable named `evenNumberArray`.
-
-Use a _FOR_ loop to add only even numbers to an Array. Add `50` even numbers to the `evenNumberArray` starting with the value `0`.*/
-
+Use a for-loop to add only even numbers to an Array. Add `50` even numbers to the `evenNumberArray` starting with the value `0`.*/
   
 
-/*## `Accessing only the odd indexes of an Array - 'Not Even Brah'`
+/* 4) `Accessing only the odd indexes of an Array - 'Not Even Brah'`
 Someone forgot to fill out this array! Oh noes...
 
-Declare a new variable named `oopsArray` set it's value to be: `[ 'turn' , , 'down' , , 'for' , , 'what' ]`
+Declare a new variable named `oopsArray` set it's value to be: `[ 'turn' , , 'down' , , 'for' , , 'what' ]`.
 
-using a _FOR_ loop, add the string `'nope'` to every odd index.
+Note that every odd index value in `oopsArray` is currently `undefined`. Using a for-loop, add the string `'nope'` to every odd index.
 
 Example result should look like:
 
-```javascript
 `[ 'turn' , 'nope' , 'down' , 'nope' , 'for' , 'nope' , 'what' ]`*/
 
 
 
-/*## `Going backwards?!`
-Using a _FOR_ loop, iterate through the Array stored at `oopsArray` **backwards**. `console.log` each value in the Array.
+/* 5) `Going backwards?!`
+Using a for-loop, iterate through the Array stored at `oopsArray` **backwards**. `console.log` each value in the Array.
 
 example output:
 ```
@@ -61,9 +55,8 @@ turn
 
 
 
-
-/*## `isNapTime`
-Declare a variable named `isNapTime`. Set it to `false`
+/* 6) `isNapTime`
+Declare a variable named `isNapTime`. Set it to `false`.
 
 Declare a variable named `napSchedule`. Set it's value to be an `Array` with the values `[false, false, true, false, true, true]`
 
@@ -74,10 +67,7 @@ Declare a function named `nap`. This function takes in a single parameter called
 
 Now, Write a FOR loop that iterates through the `napSchedule` array and runs the function `nap` while passing in the value at the current position of `napSchedule` into the `nap` function.*/
 
-
-
-
-/*Declare a variable named `valuesArray` and set it's value to be an array, `[99, 66, 829, 1941, 8, 76]`.
+/* Declare a variable named `valuesArray` and set it's value to be an array, `[99, 66, 829, 1941, 8, 76]`.
 
 Declare a function named `copyArray` which takes two arguments: `originArray` and `destinationArray`. Inside of this function you will loop through the contents of `originArray` and push each value into `destinationArray`.
 
@@ -85,16 +75,14 @@ To get started, below your function declaration, call your function and pass in 
 
 
 
-
-
 /*![final-boss](https://s3.amazonaws.com/uploads.hipchat.com/54891/2015941/zamX8AqbgYw0QJ8/giphy.gif)
 
-## Stage 1 - Only String Values
+ Stage 1 - Only String Values
 Declare a variable named `miscStorage` set it's value to be: `[ [], 'Carrots', 9, 'Beets', {}, {name: "Todd B."}, 'Mush' ]`
 
 Declare a function named `generateArrayOfStrings` which takes a single argument `storage`. This function returns a new Array with only `String` values inside of it.
 
-## Final Form - Change values of objects stored within an Array
+ Final Form - Change values of objects stored within an Array
 It's that time again, we need to graduate the current class of students and start enrollment for the next class.
 
 Declare a variable named `currentClass` and set it's value to be this [array found here](https://gist.github.com/sgnl/e40879b2249e06ca7811).
